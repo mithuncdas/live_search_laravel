@@ -20,3 +20,5 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/live-search/','LiveSearch@index')->name('live.search');
+Route::get('/live-search/action','LiveSearch@action')->name('live_search.action');

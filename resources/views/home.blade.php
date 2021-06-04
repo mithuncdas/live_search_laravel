@@ -14,7 +14,7 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    <a href="{{ route('live.search') }}">Go to Live Search Example</a>
                 </div>
             </div>
         </div>
